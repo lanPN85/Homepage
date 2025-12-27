@@ -5,6 +5,7 @@ layout: doc
 <script setup>
 import { data as posts } from './posts.data.ts'
 import { ref } from 'vue'
+import { extractPostSlug } from './utils.js';
 
 const sortedPosts = ref(
     posts
@@ -14,6 +15,7 @@ const sortedPosts = ref(
             return item;
         })
 )
+
 </script>
 
 # Blog posts
@@ -22,7 +24,7 @@ These posts are written by me and only me. No LLM is involved in the writing pro
 Opinions are my own and do not represent that of my employer.
 
 <div v-for="post of sortedPosts" :key="post.url">
-<h2 class="post-title"><a :href="post.url">{{ post.frontmatter.title }}</a></h2>
+<h2 class="post-title" :id="extractPostSlug(post.url)"><a :href="post.url">{{ post.frontmatter.title }}</a></h2>
 <p class="post-excerpt">{{ post.frontmatter.excerpt }}</p>
 <div class="post-date">{{ post.frontmatter.date }}</div>
 

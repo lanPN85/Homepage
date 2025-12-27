@@ -2,7 +2,7 @@
 import { h } from "vue";
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
-import BlogFrame from "../../components/BlogFrame.vue";
+import BlogFrame from "../../blog/BlogFrame.vue";
 import { Icon } from "@iconify/vue";
 
 // @ts-ignore

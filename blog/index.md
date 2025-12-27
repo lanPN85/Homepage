@@ -14,12 +14,10 @@ const sortedPosts = ref(
             return item;
         })
 )
-
-console.log(sortedPosts.value)
 </script>
 
 # Blog posts
-These posts are written by me and only me. No LLM is involved in the writing process. They solely reflect my own opinions and experiences, not my current or former employers.
+These posts are written by me and only me. No LLM is involved in the writing process. They do not reflect the views of my current or former employers.
 
 <div v-for="post of sortedPosts" :key="post.url">
 <h2 class="post-title"><a :href="post.url">{{ post.frontmatter.title }}</a></h2>

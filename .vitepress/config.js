@@ -5,7 +5,7 @@ export default defineConfig({
   title: "LanPN's Homepage",
   description: "Welcome to my corner of the internet.",
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/icon.png',
     socialLinks: [
       {
         icon: 'linkedin',

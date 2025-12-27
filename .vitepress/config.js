@@ -23,5 +23,5 @@ export default defineConfig({
       }
     ]
   },
-  appearance: 'force-dark',
+  appearance: false,
 })

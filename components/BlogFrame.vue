@@ -3,7 +3,7 @@
     <BackToPosts />
 
     <h1 style="margin-top: 1em">{{ $frontmatter.title }}</h1>
-    <caption class="post-date">{{ postDate }}</caption>
+    <div class="post-date">{{ postDate }}</div>
     <div style="margin-bottom: 1em"></div>
 
     <slot />

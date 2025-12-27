@@ -2,6 +2,7 @@
 import { h } from "vue";
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
+import BlogFrame from "../../components/BlogFrame.vue";
 
 // @ts-ignore
 import "./style.css";
@@ -14,6 +15,6 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component("BlogFrame", BlogFrame);
   },
 } satisfies Theme;

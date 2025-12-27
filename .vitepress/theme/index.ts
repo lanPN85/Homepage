@@ -3,6 +3,7 @@ import { h } from "vue";
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import BlogFrame from "../../components/BlogFrame.vue";
+import { Icon } from "@iconify/vue";
 
 // @ts-ignore
 import "./style.css";
@@ -18,5 +19,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component("BlogFrame", BlogFrame);
+    app.component("Icon", Icon);
   },
 } satisfies Theme;

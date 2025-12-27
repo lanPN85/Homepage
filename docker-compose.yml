@@ -1,0 +1,6 @@
+services:
+  site:
+    build: .
+    image: lanpn/homepage
+    ports:
+      - 8000:80

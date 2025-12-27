@@ -4,7 +4,7 @@ layout: home
 <div style="height: 90vh;">
     <PDFViewer
       :config="{
-        src: '/static/cv-v4.pdf',
+        src: '/cv-v4.pdf',
         theme: { preference: 'light' },
         disabledCategories: ['annotation', 'redaction', 'document-open', 'document-close', 'document-export', 'panel-sidebar', 'panel-comment', 'export', 'tools']
       }"

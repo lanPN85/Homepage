@@ -5,7 +5,6 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "@chunge16/vitepress-blogs-theme": "^0.2.4",
     "@embedpdf/vue-pdf-viewer": "^2.0.1",
     "vitepress": "^2.0.0-alpha.15",
     "vue": "^3.5.26"

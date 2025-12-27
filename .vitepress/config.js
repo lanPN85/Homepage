@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       {
         text: 'Source Code',
-        link: 'https://github.com/lanPN85',
+        link: 'https://github.com/lanPN85/Homepage',
       }
     ]
   },

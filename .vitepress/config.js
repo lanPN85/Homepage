@@ -18,6 +18,10 @@ export default defineConfig({
     ],
     nav: [
       {
+        text: 'Blog',
+        link: '/blog',
+      },
+      {
         text: 'Source Code',
         link: 'https://github.com/lanPN85/Homepage',
       }

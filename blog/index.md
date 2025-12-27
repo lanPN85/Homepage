@@ -34,10 +34,11 @@ Opinions are my own and do not represent that of my employer.
 .post-title a {
     text-decoration: none !important;
     font-weight: 600;
-
 }
 .post-title {
     margin-top: 16px;
+    margin-bottom: 0.2em;
+    padding-bottom: 0;
 }
 
 .post-date {
@@ -48,5 +49,6 @@ Opinions are my own and do not represent that of my employer.
     font-style: italic;
     font-size: 0.9em;
     margin-bottom: 0.1em !important;
+    margin-top: 0.1em !important;
 }
 </style>

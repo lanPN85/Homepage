@@ -6,6 +6,8 @@ import BlogFrame from "../../components/BlogFrame.vue";
 
 // @ts-ignore
 import "./style.css";
+// @ts-ignore
+import "./overrides.css";
 
 export default {
   extends: DefaultTheme,
